@@ -1,0 +1,68 @@
+.venv/
+# Byte-compiled / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+.venv.bak/
+
+# VSCode settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Test, log, and cache files
+*.log
+*.sqlite3
+*.db
+*.pkl
+*.cache
+*.tmp
+*.bak
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+Thumbs.db
+
+# Python egg
+*.egg-info/
+dist/
+build/
+
+# Environment variable files
+.env
+.env.*
+
+# Node (nếu có frontend)
+node_modules/
+
+# Output, reports, artifacts
+output/
+reports/
+artifacts/
+
+# Data files (nếu có)
+data/
+*.csv
+*.xlsx
+*.xls
+
+# Ignore example request/response files
+example_request.json
+example_response.json
+
+# Ignore test results
+test-results/
+coverage/
+htmlcov/
