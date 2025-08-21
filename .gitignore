@@ -1,4 +1,5 @@
 .venv/
+models/
 # Byte-compiled / compiled files
 __pycache__/
 *.py[cod]

@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-08-21T17:15:21.116096",
+  "test_results": {
+    "API Health Check": {
+      "success": true,
+      "details": "Status: healthy",
+      "timestamp": "2025-08-21T17:15:20.894923"
+    },
+    "ML Models Status": {
+      "success": true,
+      "details": "Models: 3/3 loaded (Full ML capability)",
+      "timestamp": "2025-08-21T17:15:20.901401"
+    },
+    "Solver Capabilities": {
+      "success": false,
+      "details": "HTTP 500",
+      "timestamp": "2025-08-21T17:15:20.910695"
+    },
+    "Model Files Check": {
+      "success": true,
+      "details": "Valid files: 4/4",
+      "timestamp": "2025-08-21T17:15:20.911315"
+    },
+    "Dispatch Optimization": {
+      "success": true,
+      "details": "Routes: 2, Service rate: 100.0%, Time: 0.18s, ML models used: 3, Algorithm: ml_enhanced_optimization",
+      "timestamp": "2025-08-21T17:15:21.094748"
+    },
+    "ML Prediction Test": {
+      "success": true,
+      "details": "Score: 0.734, Cost: $264, Confidence: 0.383",
+      "timestamp": "2025-08-21T17:15:21.108041"
+    }
+  },
+  "benchmark_results": {},
+  "summary": {
+    "total_tests": 6,
+    "passed_tests": 5,
+    "duration_seconds": 0.22682762145996094
+  }
+}
